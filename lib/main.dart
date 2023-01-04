@@ -23,7 +23,7 @@ class LongevityAppState extends State<LongevityApp> {
     return const MaterialApp(
       title: 'Longevity App',
       home: LandingPage(),
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
     );
   }
 }
